@@ -3,7 +3,6 @@ import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:geminisyncs/api_key.dart';
 import 'main page/Chat_page.dart';
 
-
 void main() {
   Gemini.init(
     apiKey: GEMINI_API_KEY,
@@ -20,12 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         brightness: Brightness.light,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
-      ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
         useMaterial3: true,
       ),
       home: const HomePage(),

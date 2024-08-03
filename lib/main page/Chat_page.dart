@@ -1,6 +1,5 @@
 import 'dart:io';
 import 'dart:typed_data';
-
 import 'package:dash_chat_2/dash_chat_2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
@@ -27,19 +26,17 @@ class _HomePageState extends State<HomePage> {
   );
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-          brightness: Brightness.light),
-      darkTheme: ThemeData(brightness: Brightness.dark),
-      home: Scaffold(
+    return Scaffold(
+      backgroundColor: const Color(0xffabbbea),
         appBar: AppBar(
+          backgroundColor: const Color(0xff96AEF3),
           centerTitle: true,
+
           title: const Text(
             "Geminisyncs",
           ),
         ),
         body: _buildUI(),
-      ),
     );
   }
 
