@@ -14,7 +14,7 @@ GeminiSyncs is a Flutter application that leverages the Gemini AI API to generat
 
 ### Clone the repository:
 ```
-[git clone https://github.com/your-username/GeminiSyncs.git](https://github.com/rharikrishnanraja/geminisyncs/)
+https://github.com/rharikrishnanraja/geminisyncs
 ```
 -- Replacing YOUR_API_KEY with your actual Gemini AI API key: GEMINI_API_KEY=YOUR_API_KEY
 
