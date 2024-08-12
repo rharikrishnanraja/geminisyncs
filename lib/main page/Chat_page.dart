@@ -114,7 +114,7 @@ class _HomePageState extends State<HomePage> {
       ChatMessage chatMessage = ChatMessage(
         user: currentUser,
         createdAt: DateTime.now(),
-        text: "Describe this picture?",
+        text: "Make Flutter Code using the Picture",
         medias: [
           ChatMedia(
             url: file.path,
